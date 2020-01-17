@@ -1,4 +1,4 @@
-# electron-serialport
+# serialPortFilter
 An example of how to use serialport in an electron app
 
 **Clone and run for a quick way to see Electron and Serialport in action.**
@@ -21,9 +21,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/johnny-five-io/electron-serialport.git
+git clone https://github.com/yusufkocak1/serialPortFilterWithNodejsAndElectron
 # Go into the repository
-cd electron-serialport
+cd serialPortFilter
 # Install dependencies
 npm install
 # Run the app
