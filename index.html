@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <style>
+        table { border-collapse: collapse; }
+        table, th, td { border: 1px solid black; }
+    </style>
+</head>
+
+<body>
+  <nav>
+      <div id="titleshown">Serial Port Monitor</div>
+      <div id="buttons">
+          <div id="minimize"><span>&dash;</span></div>
+           <div id="maximize"><span>&square;</span></div>
+          <div id="quit"><span>&times;</span></div>
+      </div>
+    </nav>
+<div class="backGround">
+
+  <div class="panel">
+    <input type="text" class="input" id="ports" value="3"/>
+    <input type="text" class="input"  id="boundRate" value="256000"/>
+    <button type="button" id="listenBtn" onclick="stop()">close</button>
+
+
+  </div>
+  <div class="console">
+    <p id="logs"> </p>
+  </div>
+</div>
+
+
+
+<!-- <p id="log">logs\=\></p>
+    <div id="error"></div>
+    <input type="text" id="ports" value="3"/>
+</body> -->
+
+<script src="./renderer.js"></script>
+<script src="./assets/js/titleBar.js"></script>
+
+</html>
