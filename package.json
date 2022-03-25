@@ -24,7 +24,7 @@
         "electron-rebuild": "^1.8.8"
     },
     "dependencies": {
-        "electron": "^7.1.8",
+        "electron": "^13.6.6",
         "serialport": "^8.0.6",
         "tableify": "^1.1.0"
     }
